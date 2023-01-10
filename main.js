@@ -15,6 +15,6 @@ function update()
     //Depura el código para almacenar la lista de nombres en updatedName. Utiliza names[i]
     var updatedName = names[i] ;
  
-    document.getElementById("family_member_image").src = updatedImage;
+    document.getElementById("family_member_img").src = updatedImage;
     document.getElementById("family_member_name").innerHTML = updatedName;
 }
